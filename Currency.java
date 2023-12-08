@@ -34,7 +34,7 @@ public class Currency {
     }
 
     public double getAmount(){
-        return this.amount + (rate * this.amount);
+        return (rate * this.amount);
     }
 
     public double getRate(){
