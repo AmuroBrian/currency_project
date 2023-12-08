@@ -43,7 +43,7 @@ public class Main {
             System.out.println("Amount:\t"+amount);
             System.out.println("Exchange Rate:\t"+currency.getRate());
             System.out.println("--------------------------------------------------------------------------------------");
-            System.out.printf("EXCHANGE VALUE:\t PHP %.2f\n", currency.getAmount());
+            System.out.printf("EXCHANGE VALUE:\t PHP\t%.2f\n", currency.getAmount());
         } else {
             System.out.println("The operation is FAILED!");
             System.out.println("The currency is not available.\nTry Another Currency Thank You!");
